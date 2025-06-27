@@ -61,32 +61,25 @@ Node.js & npm
 MongoDB running locally or Atlas URL
 
 **Clone the Repository**
-bash
-Copy
-Edit
+
 git clone https://github.com/Jhasija9/task-manager.git
 cd task-manager
 1. Backend Setup
-bash
-Copy
-Edit
+
 cd backend
 npm install
 cp .env.example .env   # Add MongoDB URI and JWT_SECRET
 npm run dev            # Runs on http://localhost:5000
 2. Frontend Setup
-bash
-Copy
-Edit
+
 cd frontend/Task-Manager
 npm install
 npm run dev            # Runs on http://localhost:5173
-📂 Environment Variables (.env)
+**Environment Variables (.env)**
 Inside backend/.env:
 
-ini
-Copy
-Edit
+
+
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 
@@ -112,5 +105,9 @@ JWT token is generated on login and stored in local storage
 Protected routes are handled via custom Express middleware
 
 **Screenshots**
-You can add some images or screen recordings here showing task creation, filtering, and Excel report downloads.
+<img width="1512" alt="Screenshot 2025-06-27 at 2 38 04 PM" src="https://github.com/user-attachments/assets/1caade9f-628e-4b6b-bf65-b4efd956bde3" />
+<img width="1512" alt="Screenshot 2025-06-27 at 2 35 36 PM" src="https://github.com/user-attachments/assets/ea3e6fa8-357f-4c5c-bcc2-5ba75be07024" />
+<img width="1507" alt="Screenshot 2025-06-27 at 2 36 20 PM" src="https://github.com/user-attachments/assets/45291382-2153-4c68-918d-31bd5de5e1f3" />
+<img width="1512" alt="Screenshot 2025-06-27 at 2 36 50 PM" src="https://github.com/user-attachments/assets/74b069ed-7e38-47f7-aa6d-f78ef6b1415b" />
+<img width="1511" alt="Screenshot 2025-06-27 at 2 37 25 PM" src="https://github.com/user-attachments/assets/95e6ee95-63c5-4d44-a63b-fe0cdbff07fa" />
 
